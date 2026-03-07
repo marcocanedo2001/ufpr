@@ -2,6 +2,11 @@
 
 Este repositorio contem exercicios introdutorios de Python desenvolvidos na primeira aula.
 
+## Versoes
+
+- `aula01/`: versao original.
+- `versao2/`: versao organizada para trabalho em equipe.
+
 ## Exercicios
 
 1. `aula01/imc.py` - calculo de IMC a partir de peso e altura.
