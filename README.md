@@ -23,3 +23,5 @@ python3 python/aula01/ex03_bhaskara.py
 - Crie uma branch por tarefa, por exemplo: `feat/aula01-ex01`.
 - Abra Pull Request para revisao antes de mergear na `main`.
 - Siga o guia em `CONTRIBUTING.md`.
+
+Teste de commit automatizado em 2026-03-08.
