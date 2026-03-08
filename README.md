@@ -1,12 +1,11 @@
-# MBA IA Generativa - Exercicios de Python
+# MBA IA Generativa - Python
 
-Este repositorio contem exercicios introdutorios de Python desenvolvidos na primeira aula.
+Repositorio da disciplina com exercicios e materiais de apoio organizados por aula.
 
-## Exercicios
+## Estrutura
 
-1. `python/aula01/ex01_imc.py` - calculo de IMC a partir de peso e altura.
-2. `python/aula01/ex02_circulo.py` - calculo de perimetro e area de um circulo.
-3. `python/aula01/ex03_bhaskara.py` - calculo das raizes reais de uma equacao de segundo grau.
+- `python/aula01/` - exercicios introdutorios de Python.
+- `python/aula02/` - exercicios da segunda aula.
 
 ## Como executar
 
@@ -18,10 +17,4 @@ python3 python/aula01/ex02_circulo.py
 python3 python/aula01/ex03_bhaskara.py
 ```
 
-## Trabalho em equipe
-
-- Crie uma branch por tarefa, por exemplo: `feat/aula01-ex01`.
-- Abra Pull Request para revisao antes de mergear na `main`.
-- Siga o guia em `CONTRIBUTING.md`.
-
-Teste de commit automatizado em 2026-03-08.
+Para novas aulas, adicione arquivos na pasta correspondente.
