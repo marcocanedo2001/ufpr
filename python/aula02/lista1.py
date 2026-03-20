@@ -2,12 +2,16 @@
    Escreva um programa que crie uma lista com 5 números inteiros fornecidos pelo usuário 
    e exiba a soma de todos os elementos
 """
-lista=[]
-i=0
-item = input("inclua os objetos da lista ou sair para teminar: ")
-while item != "sair":
-    lista.append(item)
-    i=1+1
-    item = input("inclua os objetos da lista ou sair para teminar: " )
-for i in lista:
-    print(i)
+lista = []
+
+for i in range(5):
+    numero = int(input(f"Digite o {i + 1}o numero inteiro: "))
+    lista.append(numero)
+
+soma = 0
+
+for numero in lista:
+    soma = soma + numero
+
+print("Lista:", lista)
+print("Soma dos elementos:", soma)
