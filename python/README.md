@@ -6,6 +6,7 @@ Repositorio da disciplina com exercicios e materiais de apoio organizados por au
 
 - `python/aula01/` - exercicios introdutorios de Python.
 - `python/aula02/` - exercicios da segunda aula.
+- `python/aula03/` - estrutura e documentacao da terceira aula sobre modularizacao e orientacao a objetos.
 
 ## Como executar
 
