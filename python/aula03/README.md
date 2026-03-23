@@ -21,12 +21,18 @@ Se a aula crescer, subpastas tematicas simples podem ser criadas, mas nao ha uso
 
 ## Ambiente Conda da aula
 
-Foi criado um ambiente isolado para esta aula em `python/aula03/.conda/`.
+Este projeto usa um ambiente Conda nomeado `pyaula3`.
 
-Para ativar o ambiente a partir da pasta `python/aula03/`:
+Para criar o ambiente do zero com o arquivo `environment.yml`:
 
 ```bash
-conda activate ./.conda
+conda env create -f environment.yml
+```
+
+Para ativar:
+
+```bash
+conda activate pyaula3
 ```
 
 Para desativar:
@@ -35,16 +41,10 @@ Para desativar:
 conda deactivate
 ```
 
-Para criar o ambiente do zero com o arquivo `environment.yml`:
+Se o ambiente `pyaula3` ja existir e voce quiser sincronizar as dependencias:
 
 ```bash
-conda env create --prefix ./.conda -f environment.yml
-```
-
-Se a pasta `.conda/` ja existir e voce quiser sincronizar as dependencias:
-
-```bash
-conda env update --prefix ./.conda -f environment.yml --prune
+conda env update -n pyaula3 -f environment.yml --prune
 ```
 
 ## Convencoes para os proximos arquivos

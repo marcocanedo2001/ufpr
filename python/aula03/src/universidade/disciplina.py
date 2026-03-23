@@ -55,4 +55,4 @@ class Disciplina:
             print("Disciplina sem professor alocado")
         print("Conteúdos Ministrados:")
         for cont in self.__conteudos_ministrados:
-            print(f"\t->{cont.descricao}({cont.carga_horaria} hora)")
+            print(f"\t->id:{cont.id} - {cont.descricao}({cont.carga_horaria} hora)")

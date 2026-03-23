@@ -3,9 +3,9 @@ class ConteudoMinistrado:
     def __init__(self, descricao, carga_horaria):
         self.__descricao = descricao
         self.__carga_horaria = carga_horaria
-        #incrementar o id automaticamente a cada nova instância criada
+        self.__id = ConteudoMinistrado.PROXY_ID
         ConteudoMinistrado.PROXY_ID += 1
-        self.__proxy_id = ConteudoMinistrado.PROXY_ID
+
 
     @property
     def descricao(self):
@@ -16,5 +16,6 @@ class ConteudoMinistrado:
         return self.__carga_horaria
     
     @property
-    def proxyid(self):
-        return self.__proxy_id
+    def id(self):
+        return self.__id
+    

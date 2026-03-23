@@ -1,7 +1,6 @@
-name: pyaula3
+name: pyaula2
 channels:
   - defaults
 dependencies:
   - python=3.12
   - pip
-  - numpy
