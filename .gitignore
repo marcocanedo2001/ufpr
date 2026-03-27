@@ -1,2 +1,5 @@
 _git_backups/
 .vscode/
+
+# Local Python virtual environment
+aprendizado_de_maquina/aula01_introducao_aprendizado_maquina/.venv/
