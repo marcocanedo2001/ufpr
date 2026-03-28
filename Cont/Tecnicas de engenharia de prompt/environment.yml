@@ -1,0 +1,14 @@
+name: cont01
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - requests
+      - python-dotenv
+      - openai
+      - chatlas
+      - shiny
+      - langchain-openai
+      - langchain-core
