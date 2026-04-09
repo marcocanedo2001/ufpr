@@ -10,7 +10,21 @@ Este repositorio contem exercicios introdutorios de Python desenvolvidos na prim
 
 ## Como executar
 
-Use Python 3 no terminal:
+Ao entrar em `python/aula01`, o ambiente Conda `pyaula1` pode ser ativado automaticamente pelo `zsh`.
+
+Ativacao manual (se necessario):
+
+```bash
+conda activate pyaula1
+```
+
+Se o ambiente ainda nao existir:
+
+```bash
+conda env create -f environment.yml
+```
+
+Depois disso, execute com Python 3 no terminal:
 
 ```bash
 python3 python/aula01/ex01_imc.py
