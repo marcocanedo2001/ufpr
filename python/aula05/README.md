@@ -31,20 +31,26 @@ Construir uma base pratica para:
 
 ## Ambiente da aula
 
-Esta pasta usa ambiente virtual Python local `pyaula05`.
+Esta pasta usa o ambiente Conda `pyaula5`.
 
 Ao entrar em `python/aula05` no terminal `zsh`, o ambiente e ativado automaticamente.
 
 Ativacao manual (se necessario):
 
 ```bash
-source pyaula05/bin/activate
+conda activate pyaula5
 ```
 
-Instalacao de dependencias usadas no material:
+Criacao do ambiente:
 
 ```bash
-pip install fastapi "uvicorn[standard]" requests
+conda env create -f environment.yml
+```
+
+Atualizacao do ambiente existente:
+
+```bash
+conda env update -f environment.yml --prune
 ```
 
 ## Fluxo pratico da aula
@@ -56,12 +62,14 @@ pip install fastapi "uvicorn[standard]" requests
 5. Subir servidor local com:
 
 ```bash
-fastapi dev servidor.py
+python -m uvicorn servidor:app --reload
 ```
 
 6. Testar no navegador:
 
-- `http://127.0.0.1:8000/`
+- `http://127.0.0.1:8000/saudacao`
+- `http://127.0.0.1:8000/hora_atual`
+- `http://127.0.0.1:8000/verificar-cpf?cpf_teste=12345678909`
 - `http://127.0.0.1:8000/docs`
 
 ## Exemplos de evolucao dos endpoints
@@ -81,6 +89,7 @@ fastapi dev servidor.py
 - Retornar erros de forma padrao com `HTTPException`.
 - Testar continuamente via `/docs` durante o desenvolvimento.
 - Manter servico em modo local durante estudos (`fastapi dev`).
+- Manter servico em modo local durante estudos com recarga automatica (`uvicorn --reload`).
 
 ## Exercicios propostos no material
 
@@ -91,5 +100,5 @@ fastapi dev servidor.py
 
 ## Observacoes
 
-- O PDF inclui orientacoes com Conda; nesta pasta usamos `venv` (`pyaula05`).
+- O ambiente da aula foi padronizado em Conda para ficar consistente com as demais aulas de Python.
 - O conteudo pode ser expandido conforme novos scripts e exemplos forem adicionados.
