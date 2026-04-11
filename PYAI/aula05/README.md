@@ -33,7 +33,7 @@ Construir uma base pratica para:
 
 Esta pasta usa o ambiente Conda `pyaula5`.
 
-Ao entrar em `python/aula05` no terminal `zsh`, o ambiente e ativado automaticamente.
+Ao entrar em `PYAI/aula05` no terminal `zsh`, o ambiente e ativado automaticamente.
 
 Ativacao manual (se necessario):
 

@@ -16,7 +16,7 @@ Preparar a estrutura da aula para os temas de modularizacao e orientacao a objet
 
 ## Organizacao sugerida
 
-Os proximos arquivos da aula devem ser adicionados diretamente em `python/aula03/`.
+Os proximos arquivos da aula devem ser adicionados diretamente em `PYAI/aula03/`.
 Se a aula crescer, subpastas tematicas simples podem ser criadas, mas nao ha uso de `src/` nesta estrutura.
 
 ## Ambiente Conda da aula

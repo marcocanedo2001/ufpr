@@ -26,7 +26,7 @@ A aula 04 agora inclui o pacote `src/` com as classes reaproveitadas da aula 03:
 - `src/universidade/conteudo_ministrado.py`
 - `src/main.py` com um exemplo executavel
 
-Novos scripts, modulos ou notebooks podem ser adicionados diretamente em `python/aula04/` conforme a aula evoluir.
+Novos scripts, modulos ou notebooks podem ser adicionados diretamente em `PYAI/aula04/` conforme a aula evoluir.
 
 ## Ambiente Conda da aula
 
@@ -54,14 +54,14 @@ conda env update -n pyaula4 -f environment.yml --prune
 
 Ao abrir a pasta `aula04` no VS Code, o interpretador configurado para o workspace sera o do ambiente `pyaula4`.
 
-Ao abrir um terminal `zsh` ja dentro de `python/aula04/`, o ambiente `pyaula4` sera ativado automaticamente pela configuracao do shell.
+Ao abrir um terminal `zsh` ja dentro de `PYAI/aula04/`, o ambiente `pyaula4` sera ativado automaticamente pela configuracao do shell.
 
 ## Como trabalhar na aula
 
 Entrar na pasta:
 
 ```bash
-cd /home/marco/mba_genai/python/aula04
+cd /home/marco/mba_genai/PYAI/aula04
 ```
 
 Confirmar o ambiente ativo:
