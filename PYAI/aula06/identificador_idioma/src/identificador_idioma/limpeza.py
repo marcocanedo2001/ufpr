@@ -1,25 +1,30 @@
 from __future__ import annotations
 
+import html
+import re
+import unicodedata
+
 
 def _remover_acentos(texto: str) -> str:
-    """TODO: remover acentos com `unicodedata`.
-
-    Sugestão:
-    - normalizar com `unicodedata.normalize('NFD', texto)`
-    - remover caracteres de marca diacrítica (categoria `Mn`)
-    """
-    raise NotImplementedError("TODO: implementar remoção de acentos")
+    """Remove acentos de um texto usando normalização Unicode."""
+    texto = unicodedata.normalize("NFD", texto)
+    texto = "".join(c for c in texto if unicodedata.category(c) != "Mn")
+    return texto
 
 
 def limpar_texto(texto_bruto: str, remover_acentos: bool = True) -> str:
-    """TODO: limpar texto bruto mantendo somente letras a-z.
+    """Limpa texto bruto mantendo somente letras de `a` a `z`."""
+    if not isinstance(texto_bruto, str):
+        raise TypeError("Entrada deve ser uma string")
 
-    O que implementar:
-    1. Decodificar entidades HTML (`html.unescape`).
-    2. Remover tags HTML (regex simples), incluindo script/style.
-    3. Converter para minúsculas.
-    4. Se `remover_acentos=True`, chamar `_remover_acentos`.
-    5. Remover tudo que não for [a-z].
-    6. Retornar string limpa para cálculo de frequência.
-    """
-    raise NotImplementedError("TODO: implementar limpeza de texto")
+    texto = html.unescape(texto_bruto)
+    texto = re.sub(r"<script.*?>.*?</script>", "", texto, flags=re.DOTALL | re.IGNORECASE)
+    texto = re.sub(r"<style.*?>.*?</style>", "", texto, flags=re.DOTALL | re.IGNORECASE)
+    texto = re.sub(r"<.*?>", "", texto)
+    texto = texto.lower()
+
+    if remover_acentos:
+        texto = _remover_acentos(texto)
+
+    texto = re.sub(r"[^a-z]", "", texto)
+    return texto

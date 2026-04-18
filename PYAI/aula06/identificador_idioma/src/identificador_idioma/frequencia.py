@@ -2,11 +2,21 @@ from __future__ import annotations
 
 
 def calcular_frequencia(texto_limpo: str) -> dict[str, float]:
-    """TODO: calcular frequência relativa (%) das letras de a a z.
+    """Calcula a frequência relativa (%) das letras de a a z."""
+    if not isinstance(texto_limpo, str):
+        raise TypeError("Entrada deve ser uma string")
 
-    O que implementar:
-    1. Contar ocorrências de cada letra (a-z).
-    2. Calcular percentual por letra: `contagem / total * 100`.
-    3. Retornar dicionário com 26 letras (inclusive com 0.0 quando necessário).
-    """
-    raise NotImplementedError("TODO: implementar cálculo de frequência")
+    frequencia = {chr(i): 0.0 for i in range(ord("a"), ord("z") + 1)}
+
+    if not texto_limpo:
+        return frequencia
+
+    total = len(texto_limpo)
+
+    for char in texto_limpo:
+        frequencia[char] += 1
+
+    for letra in frequencia:
+        frequencia[letra] = (frequencia[letra] / total) * 100
+
+    return frequencia
