@@ -10,21 +10,21 @@ Este guia mostra como criar um ambiente virtual com Conda e executar o script Py
 ## 2. Entrar na pasta do projeto
 
 ```bash
-cd /home/marco/mba_genai/DSLLM/aula01
+cd /home/marco/mba_genai/DSLLM/aula02
 ```
 
 ## 3. Criar ambiente Conda
 
-Crie um ambiente chamado `dsllm-aula01` com Python 3.11:
+Crie um ambiente chamado `dsllm-aula02` com Python 3.11:
 
 ```bash
-conda create -n dsllm-aula01 python=3.11 -y
+conda create -n dsllm-aula02 python=3.11 -y
 ```
 
 ## 4. Ativar o ambiente
 
 ```bash
-conda activate dsllm-aula01
+conda activate dsllm-aula02
 ```
 
 ## 5. Instalar dependências do projeto
@@ -32,7 +32,7 @@ conda activate dsllm-aula01
 Use o `environment.yml`:
 
 ```bash
-conda env update -n dsllm-aula01 -f environment.yml
+conda env update -n dsllm-aula02 -f environment.yml
 ```
 
 ## 6. Verificar instalação
@@ -59,7 +59,7 @@ which python
 
 Esperado:
 - `Python 3.11.x`
-- `/home/marco/miniconda3/envs/dsllm-aula01/bin/python`
+- `/home/marco/miniconda3/envs/dsllm-aula02/bin/python`
 
 Depois, no prompt interativo:
 
@@ -98,5 +98,5 @@ conda deactivate
 Após instalar e validar, exporte um arquivo de ambiente:
 
 ```bash
-conda env export --name dsllm-aula01 > environment.lock.yml
+conda env export --name dsllm-aula02 > environment.lock.yml
 ```

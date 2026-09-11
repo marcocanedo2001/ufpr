@@ -1,16 +1,16 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
-from chatlas import ChatOpenAI
+from chatlas import ChatOpenAICompletions
 
 # =========================================================
 # CONFIGURAÇÃO
 # =========================================================
 
-load_dotenv()
+load_dotenv(find_dotenv())
 
-chat = ChatOpenAI(
+chat = ChatOpenAICompletions(
     model="meta/llama-3.3-70b-instruct",
     api_key=os.getenv("NVIDIA_API_KEY"),
     base_url="https://integrate.api.nvidia.com/v1"

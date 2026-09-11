@@ -1,4 +1,4 @@
-name: dsllm-aula01
+name: dsllm-aula02
 channels:
   - conda-forge
   - defaults

@@ -1,0 +1,38 @@
+name: dsllm
+channels:
+  - conda-forge
+dependencies:
+  # Runtime e ambiente interativo
+  - python=3.11
+  - pip
+  - ipython
+  - ipykernel
+  - jupyterlab
+  - notebook
+
+  # Coleta, extração e tratamento de dados (aula02)
+  - beautifulsoup4>=4.12,<5.0
+  - pandas>=2.2,<3.0
+  - pydantic>=2.7,<3.0
+  - pypdf>=6,<7
+  - python-dotenv>=1.0,<2.0
+  - requests>=2.31,<3.0
+  - selenium>=4.0,<5.0
+
+  # Visualização e inferência estatística (aulas 02 e 04)
+  - matplotlib>=3.8,<4.0
+  - numpy>=1.26,<3.0
+  - plotnine>=0.13,<1.0
+  - scipy>=1.12,<2.0
+  - scikit-learn>=1.4,<2.0
+  - statsmodels>=0.14,<1.0
+
+  # Processamento de linguagem natural (aula05)
+  - spacy>=3.8,<3.9
+
+  # Pacotes que são distribuídos no PyPI.
+  - pip:
+      - chatlas>=0.8,<1.0
+      - vaderSentiment>=3.3,<4.0
+      # Necessário para spacy.load("en_core_web_sm") no notebook da aula05.
+      - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
