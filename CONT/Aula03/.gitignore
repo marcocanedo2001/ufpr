@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Segredos e configurações locais
+.env
+
+# Cache e artefatos do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Bases e saídas geradas pelos experimentos
+aula-rag_/chroma_db/
+aula-rag_/figuras/*.png
+aula-rag_/outputs/
+
+# Cache local de modelos
+.cache/
+
