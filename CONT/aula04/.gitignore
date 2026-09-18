@@ -1,0 +1,6 @@
+# Ambiente e estado local do notebook
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+chroma_db/
+relatorios/
