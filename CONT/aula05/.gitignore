@@ -1,0 +1,7 @@
+.venv/
+.venv-local/
+.venv-incompleto/
+__pycache__/
+.ipynb_checkpoints/
+chroma/
+rag_hibrido_pre_pos_log.jsonl

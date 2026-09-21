@@ -1,0 +1,11 @@
+# Ambiente local para RAG_Hibrido_aula_3_final.ipynb (Python 3.12+)
+torch>=2.5
+transformers>=4.45,<5
+accelerate>=1.0
+sentence-transformers>=3.1
+chromadb>=0.5
+pypdf>=5.0
+networkx>=3.4
+sqlglot>=25.0
+ipykernel>=6.29
+jupyterlab>=4.2
