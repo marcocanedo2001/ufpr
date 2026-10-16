@@ -1,8 +1,14 @@
 # 03/10/2026 — Deisy — Texto com LLMs · Parte 2
 
-Materiais oficiais ainda não baixados. O teste local de acesso ao notebook oficial da aula07 retornou a página de login do Moodle, sem um notebook válido. Não foram copiadas credenciais ou sessões.
+Materiais recebidos pelo pacote privado fornecido pelo usuário em Downloads. Os arquivos ficam em `material_privado/`, ignorada pelo Git; nenhum material novo do professor foi publicado.
 
-- [Slides 03 — Do Cliente LLM à Otimização de Custo](https://moodle.c3sl.ufpr.br/pluginfile.php/246290/mod_resource/content/1/slides.html?embed=1)
-- [Notebook 03](https://moodle.c3sl.ufpr.br/pluginfile.php/246291/mod_resource/content/1/codigos-aula.ipynb)
+- `material_privado/slides.html`
+- `material_privado/codigos-aula.ipynb`
 
-Os links foram confirmados pelo levantamento do curso. Não há licença explícita de redistribuição identificada; materiais novos dos professores não foram incluídos no repositório público.
+Os conteúdos foram preservados e conferidos pelo manifesto SHA-256. Nenhum notebook foi executado ou alterado. Trabalhe a partir de `material_privado/` para manter as referências locais dos notebooks.
+
+Pendente: `data/fixtures/linkedin_ds_jobs_real.csv`, referenciado pelo notebook e ausente no pacote. Não foi criado arquivo substituto.
+
+Slides HTML podem exigir recursos externos; a identidade dos HTML em relação aos bytes do servidor não foi verificada, somente a identidade ao pacote recebido.
+
+Fontes oficiais e demais ressalvas: consulte `../INDICE_AULAS.md`.

@@ -9,8 +9,8 @@ Histórico confirmado na aba detalhada da planilha oficial (gid=762817580). As p
 | 03 | 16/05/2026 | Walmes | Estatística e visualização | [Materiais](aula03_2026-05-16_estatistica-visualizacao/) |
 | 04 | 23/05/2026 | Anderson | Inferência estatística | [Materiais e notebook](aula04_2026-05-23_inferencia-estatistica/) |
 | 05 | 14/08/2026 | Deisy | NLP clássico | [Projeto, dados e notebook](aula05_2026-08-14_nlp-classico/) |
-| 06 | 28/08/2026 | Deisy | Analisando dados de texto com LLMs · Parte 1 | [Fontes oficiais; download pendente](aula06_2026-08-28_texto-llms-parte1/) |
-| 07 | 03/10/2026 | Deisy | Analisando dados de texto com LLMs · Parte 2 | [Fontes oficiais; download pendente](aula07_2026-10-03_texto-llms-parte2/) |
+| 06 | 28/08/2026 | Deisy | Analisando dados de texto com LLMs · Parte 1 | [4 materiais recebidos para estudo local](aula06_2026-08-28_texto-llms-parte1/) |
+| 07 | 03/10/2026 | Deisy | Analisando dados de texto com LLMs · Parte 2 | [2 materiais recebidos para estudo local](aula07_2026-10-03_texto-llms-parte2/) |
 | 08 | 16/10/2026 | Deisy | Analisando dados de áudio, imagem e vídeos | [Pasta de hoje](aula08_2026-10-16_audio-imagem-videos/); material ainda não recebido localmente |
 | 09 | 06/11/2026 | Deisy | GitActions | Futura; nenhuma pasta ou material criado |
 
@@ -18,7 +18,7 @@ Histórico confirmado na aba detalhada da planilha oficial (gid=762817580). As p
 
 A planilha inclui uma linha extra em 29/08 numerada 2, para Deisy/NLP clássico. Essa inconsistência está registrada sem duplicar a aula ou deslocar as demais. O dia da semana de 03/10 foi rotulado Sexta na planilha, mas a data corresponde a sábado; foi mantida a data.
 
-A aula05 contém materiais numerados internamente como Aula 01 de NLP. Slides 03 e Notebook 03 intitulados “Do Cliente LLM à Otimização de Custo” pertencem à sequência de análise de texto; não são a aula03 geral de estatística. Os recursos oficiais 66362/66363 foram associados à aula07 pelo levantamento do curso; o conteúdo não pôde ser baixado pela sessão local.
+A aula05 contém materiais numerados internamente como Aula 01 de NLP. Slides 03 e Notebook 03 intitulados “Do Cliente LLM à Otimização de Custo” pertencem à sequência de análise de texto; não são a aula03 geral de estatística. Os recursos oficiais 66362/66363 foram associados à aula07 pelo levantamento do curso; os materiais foram posteriormente recebidos pelo pacote privado fornecido pelo usuário.
 
 ## Uso e preservação
 
@@ -32,7 +32,7 @@ Consulta Moodle informada às 15h45 de 16/10: sem material novo para hoje; últi
 
 ## Recursos oficiais para completar os materiais
 
-Links confirmados pelo levantamento do curso em 16/10/2026. O teste local de um notebook oficial retornou HTML de login, não JSON de notebook; nenhum download foi salvo como se fosse material válido. Não foi identificado acesso local autenticado. O recurso de dados 66136 foi bloqueado na consulta da nuvem e não houve tentativa de contornar o bloqueio. O recurso de dados 66148 continua como referência sem conteúdo baixado.
+Links confirmados pelo levantamento do curso em 16/10/2026. O teste local de um notebook oficial retornou HTML de login, não JSON de notebook; nenhum download foi salvo como se fosse material válido. Não foi identificado acesso local autenticado. O recurso de dados 66136 foi bloqueado na consulta da nuvem e não houve tentativa de contornar o bloqueio. O CSV do recurso 66148 foi explicitamente bloqueado pela organização e continua ausente; não houve tentativa de contornar o bloqueio.
 
 ### 08/05/2026 — Walmes — Ferramentas e CLI
 
@@ -72,3 +72,9 @@ Links confirmados pelo levantamento do curso em 16/10/2026. O teste local de um 
 Dados adicionais: [recurso 66148](https://moodle.c3sl.ufpr.br/mod/resource/view.php?id=66148). A associação dos dados a um notebook específico depende da inspeção do conteúdo, ainda indisponível localmente.
 
 O repositório é público. Os materiais novos dos professores não foram redistribuídos: não foi encontrada licença explícita de publicação. Os materiais já existentes foram apenas migrados, preservando seu conteúdo.
+
+## Recebimento privado posterior
+
+Seis materiais foram recebidos do pacote fornecido pelo usuário em Downloads: quatro da aula06 (slides HTML/PDF e dois notebooks) e dois da aula07 (slides HTML e notebook). Todos conferidos por tamanho e SHA-256 do manifesto. Estão nas subpastas locais `material_privado/`, ignoradas pelo Git. Não foram executados nem modificados. O pacote e o manifesto são de uso pessoal; não foram publicados.
+
+Continuam pendentes o ZIP da aula01 (63736) e o CSV breast-cancer da aula06 (66148), ambos bloqueados pela organização. O notebook da aula07 também referencia `data/fixtures/linkedin_ds_jobs_real.csv`, ausente no pacote. Os HTML podem depender de recursos externos. O material da aula08 permanece não recebido.
