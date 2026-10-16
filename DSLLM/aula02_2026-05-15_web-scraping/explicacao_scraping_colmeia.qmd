@@ -75,7 +75,7 @@ import pandas as pd
 from IPython.display import display
 
 # Adicionamos a pasta do script ao sistema para podermos importá-lo
-script_path = Path('/home/marco/mba_genai/DSLLM/aula02/lessons/03_imoveis_http/src/04_colmeia_extract_content.py')
+script_path = Path('/mnt/wsl/mba-genai/DSLLM/aula02_2026-05-15_web-scraping/lessons/03_imoveis_http/src/04_colmeia_extract_content.py')
 sys.path.append(str(script_path.parent))
 
 # Importamos o módulo Python dinamicamente

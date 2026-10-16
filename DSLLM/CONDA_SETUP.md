@@ -39,5 +39,5 @@ python -c "import bs4, chatlas, matplotlib, numpy, pandas, plotnine, pydantic, p
 ```
 
 O scraping com Selenium também requer um navegador Chromium/Chrome instalado no
-sistema. Consulte `aula02/lessons/04_imoveis_selenium/docs/SELENIUM_VNC_PROVISIONING.md`
+sistema. Consulte `aula02_2026-05-15_web-scraping/lessons/04_imoveis_selenium/docs/SELENIUM_VNC_PROVISIONING.md`
 para a execução em ambiente VNC.

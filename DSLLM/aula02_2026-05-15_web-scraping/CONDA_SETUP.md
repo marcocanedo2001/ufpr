@@ -10,7 +10,7 @@ Este guia mostra como criar um ambiente virtual com Conda e executar o script Py
 ## 2. Entrar na pasta do projeto
 
 ```bash
-cd /home/marco/mba_genai/DSLLM/aula02
+cd /mnt/wsl/mba-genai/DSLLM/aula02_2026-05-15_web-scraping
 ```
 
 ## 3. Criar ambiente Conda
