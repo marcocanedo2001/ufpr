@@ -4,7 +4,7 @@ Materiais da disciplina de Aprendizado de Maquina organizados como materia separ
 
 ## Estrutura
 
-- `aula01_introducao_aprendizado_maquina/` - aula de 20/03/2026 com introducao ao Aprendizado de Maquina.
+- `aula01_2026-03-20_introducao-aprendizado-maquina/` - aula de 20/03/2026 com introducao ao Aprendizado de Maquina.
 
 ## Organizacao sugerida
 

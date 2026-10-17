@@ -4,9 +4,9 @@ Este repositorio contem exercicios introdutorios de Python desenvolvidos na prim
 
 ## Exercicios
 
-1. `PYAI/aula01/ex01_imc.py` - calculo de IMC a partir de peso e altura.
-2. `PYAI/aula01/ex02_circulo.py` - calculo de perimetro e area de um circulo.
-3. `PYAI/aula01/ex03_bhaskara.py` - calculo das raizes reais de uma equacao de segundo grau.
+1. `PYAI/aula01_2026-03-06_fundamentos-python/ex01_imc.py` - calculo de IMC a partir de peso e altura.
+2. `PYAI/aula01_2026-03-06_fundamentos-python/ex02_circulo.py` - calculo de perimetro e area de um circulo.
+3. `PYAI/aula01_2026-03-06_fundamentos-python/ex03_bhaskara.py` - calculo das raizes reais de uma equacao de segundo grau.
 
 ## Como executar
 
@@ -27,9 +27,9 @@ conda env create -f environment.yml
 Depois disso, execute com Python 3 no terminal:
 
 ```bash
-python3 PYAI/aula01/ex01_imc.py
-python3 PYAI/aula01/ex02_circulo.py
-python3 PYAI/aula01/ex03_bhaskara.py
+python3 PYAI/aula01_2026-03-06_fundamentos-python/ex01_imc.py
+python3 PYAI/aula01_2026-03-06_fundamentos-python/ex02_circulo.py
+python3 PYAI/aula01_2026-03-06_fundamentos-python/ex03_bhaskara.py
 ```
 
 ## Trabalho em equipe
