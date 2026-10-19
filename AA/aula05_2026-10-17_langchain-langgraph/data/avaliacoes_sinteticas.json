@@ -1,0 +1,15 @@
+{
+  "origem": "Exemplos sintéticos para estudo; não extraídos da API",
+  "data": [
+    {
+      "id": "s1",
+      "description": "Produto excelente e entrega rápida",
+      "esperado": "positivo"
+    },
+    {
+      "id": "s2",
+      "description": "Produto veio quebrado e ninguém resolveu",
+      "esperado": "negativo"
+    }
+  ]
+}

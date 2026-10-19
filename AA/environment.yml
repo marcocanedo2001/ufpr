@@ -1,0 +1,19 @@
+name: aa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - requests>=2.31,<3
+  - pydantic>=2.7,<3
+  - python-dotenv>=1,<2
+  - pip:
+      - langchain>=1,<2
+      - langchain-core>=1.6,<2
+      - langchain-ollama>=1,<2
+      - langchain-groq>=1,<2
+      - langgraph==1.2.16

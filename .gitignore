@@ -26,3 +26,10 @@ PYAI/aula07/*.xlsx
 PYAI/aula07/*.jsonl
 PYAI/aula07/*.jsonl.*
 PYAI/aula07/*.parquet
+
+# Personal study materials and generated local environments
+**/material/originais/
+**/.venv/
+**/.ipynb_checkpoints/
+**/versoes-locais.txt
+**/material/projetos-originais/

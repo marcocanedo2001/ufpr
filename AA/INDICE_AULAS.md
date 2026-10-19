@@ -18,7 +18,7 @@ Organização local em 17/10/2026. O cronograma é uma previsão: suas datas nã
 | Diretório atual | Conteúdo identificado | Associação e limites |
 | --- | --- | --- | --- |
 | [aula03](aula03/) | VPS, N8N, Ollama e PostgreSQL | Tema compatível com 02/10, mas número local 03 diverge da aula04 prevista. Data local não confirmada; preservada. |
-| [aula05_2026-10-17_langchain-langgraph](aula05_2026-10-17_langchain-langgraph/) | LangChain + LangGraph | Pasta previamente preparada pelo cronograma de 17/10; materiais ainda não identificados neste inventário. |
+| [aula05_2026-10-17_langchain-langgraph](aula05_2026-10-17_langchain-langgraph/) | LangChain + LangGraph | Laboratório autoral e ambiente AA preparados em 19/10; fontes oficiais em material/FONTES.md. PDFs recebidos e lidos em 19/10; cópias pessoais ignoradas no Git. |
 
 Não foi criada aula02. `aula03` não foi renumerada para aula07 nem aula04. A divergência 3/7 em 19/09 é do cronograma, não uma prova sobre a pasta local.
 
@@ -27,3 +27,7 @@ Não foi criada aula02. `aula03` não foi renumerada para aula07 nem aula04. A d
 Projetos, dados, arquivos ignorados, ambientes e trabalhos pessoais foram preservados. Nenhum notebook ou projeto foi executado e nenhuma dependência foi instalada. As pastas ambíguas permanecem nos nomes originais, com data local não confirmada.
 
 Backup recuperável e manifesto privado: `../organizacao_2026-10-17/`. A documentação de caminhos foi ajustada apenas onde necessário; notebooks, ambientes e dependências não foram reescritos. A publicação da organização inclui somente movimentações de conteúdo previamente rastreado e documentação. Materiais locais novos, ambientes e backups permanecem fora do Git público.
+
+## Atualização de estudo em 19/10/2026
+
+Ambiente separado `aa`, seis notebooks guiados, contratos e testes offline adicionados. Consulte CONDA_SETUP.md. O registro de preservação acima descreve a organização anterior de 17/10; esta atualização acrescenta novos exercícios sem modificar os projetos preexistentes.

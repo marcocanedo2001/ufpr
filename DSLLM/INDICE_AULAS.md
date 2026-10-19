@@ -11,7 +11,7 @@ Histórico confirmado na aba detalhada da planilha oficial (gid=762817580). As p
 | 05 | 14/08/2026 | Deisy | NLP clássico | [Projeto, dados e notebook](aula05_2026-08-14_nlp-classico/) |
 | 06 | 28/08/2026 | Deisy | Analisando dados de texto com LLMs · Parte 1 | [4 materiais recebidos para estudo local](aula06_2026-08-28_texto-llms-parte1/) |
 | 07 | 03/10/2026 | Deisy | Analisando dados de texto com LLMs · Parte 2 | [2 materiais recebidos para estudo local](aula07_2026-10-03_texto-llms-parte2/) |
-| 08 | 16/10/2026 | Deisy | Analisando dados de áudio, imagem e vídeos | [Pasta de hoje](aula08_2026-10-16_audio-imagem-videos/); material ainda não recebido localmente |
+| 08 | 16/10/2026 | Deisy | Analisando dados de áudio, imagem e vídeos | [Slides e notebook recebidos; preparação do ambiente](aula08_2026-10-16_audio-imagem-videos/) |
 | 09 | 06/11/2026 | Deisy | GitActions | Futura; nenhuma pasta ou material criado |
 
 ## Ressalvas do histórico
@@ -77,4 +77,8 @@ O repositório é público. Os materiais novos dos professores não foram redist
 
 Seis materiais foram recebidos do pacote fornecido pelo usuário em Downloads: quatro da aula06 (slides HTML/PDF e dois notebooks) e dois da aula07 (slides HTML e notebook). Todos conferidos por tamanho e SHA-256 do manifesto. Estão nas subpastas locais `material_privado/`, ignoradas pelo Git. Não foram executados nem modificados. O pacote e o manifesto são de uso pessoal; não foram publicados.
 
-Continuam pendentes o ZIP da aula01 (63736) e o CSV breast-cancer da aula06 (66148), ambos bloqueados pela organização. O notebook da aula07 também referencia `data/fixtures/linkedin_ds_jobs_real.csv`, ausente no pacote. Os HTML podem depender de recursos externos. O material da aula08 permanece não recebido.
+Continuam pendentes o ZIP da aula01 (63736) e o CSV breast-cancer da aula06 (66148), ambos bloqueados pela organização. O notebook da aula07 também referencia `data/fixtures/linkedin_ds_jobs_real.csv`, ausente no pacote. Os HTML podem depender de recursos externos. Aula08: slides e notebook recebidos posteriormente; o projeto completo e a mídia do vídeo continuam pendentes.
+
+## Atualização de 19/10/2026
+
+A aula08 agora tem material pessoal, diagnóstico de preparação, roteiro de estudo e ambiente separado. Consulte o README atual da aula; as observações de consulta sem material novo acima são registros históricos de 16/10. A execução multimodal completa e a instalação no computador do aluno não foram feitas.
