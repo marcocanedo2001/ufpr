@@ -32,3 +32,4 @@ PYAI/aula07/*.parquet
 **/.venv/
 **/.ipynb_checkpoints/
 **/versoes-locais.txt
+**/material/projetos-originais/

@@ -18,7 +18,7 @@ Organização local em 17/10/2026. O cronograma é uma previsão: suas datas nã
 | Diretório atual | Conteúdo identificado | Associação e limites |
 | --- | --- | --- | --- |
 | [aula03](aula03/) | VPS, N8N, Ollama e PostgreSQL | Tema compatível com 02/10, mas número local 03 diverge da aula04 prevista. Data local não confirmada; preservada. |
-| [aula05_2026-10-17_langchain-langgraph](aula05_2026-10-17_langchain-langgraph/) | LangChain + LangGraph | Laboratório autoral e ambiente AA preparados em 19/10; fontes oficiais em material/FONTES.md. PDFs ainda pendentes de download. |
+| [aula05_2026-10-17_langchain-langgraph](aula05_2026-10-17_langchain-langgraph/) | LangChain + LangGraph | Laboratório autoral e ambiente AA preparados em 19/10; fontes oficiais em material/FONTES.md. PDFs recebidos e lidos em 19/10; cópias pessoais ignoradas no Git. |
 
 Não foi criada aula02. `aula03` não foi renumerada para aula07 nem aula04. A divergência 3/7 em 19/09 é do cronograma, não uma prova sobre a pasta local.
 
@@ -30,4 +30,4 @@ Backup recuperável e manifesto privado: `../organizacao_2026-10-17/`. A documen
 
 ## Atualização de estudo em 19/10/2026
 
-Ambiente separado `aa`, quatro notebooks guiados, contratos e testes offline adicionados. Consulte CONDA_SETUP.md. O registro de preservação acima descreve a organização anterior de 17/10; esta atualização acrescenta novos exercícios sem modificar os projetos preexistentes.
+Ambiente separado `aa`, seis notebooks guiados, contratos e testes offline adicionados. Consulte CONDA_SETUP.md. O registro de preservação acima descreve a organização anterior de 17/10; esta atualização acrescenta novos exercícios sem modificar os projetos preexistentes.
