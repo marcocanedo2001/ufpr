@@ -1,0 +1,5 @@
+# Requer Python 3.11
+streamlit>=1.58.0
+chatlas>=0.18.1
+openai>=2.38.0
+python-dotenv>=1.2.2

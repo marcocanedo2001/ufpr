@@ -1,0 +1,10 @@
+.env
+.Rhistory
+__pycache__/
+*.pyc
+*.log
+*.out
+* copy.*
+log.out
+!.vscode/
+!.vscode/settings.json
