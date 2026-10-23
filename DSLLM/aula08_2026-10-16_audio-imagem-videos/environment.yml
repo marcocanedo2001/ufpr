@@ -1,0 +1,27 @@
+name: dsllm-multimodal
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy>=1.26,<3
+  - pandas>=2.2,<3
+  - matplotlib>=3.8,<4
+  - scikit-learn>=1.4,<2
+  - pillow>=10,<13
+  - requests>=2.31,<3
+  - librosa>=0.10,<1
+  - soundfile>=0.12,<1
+  - pip:
+      - langchain>=1,<2
+      - langchain-ollama>=1,<2
+      - llama-index-core>=0.12,<1
+      - llama-index-embeddings-huggingface>=0.5,<1
+      - llama-index-llms-ollama>=0.5,<1
+      - imageio-ffmpeg>=0.6,<1
+      - openai-whisper
+      - pyttsx3>=2.90,<3
+      - medmnist>=3,<4
+      - chatlas>=0.8,<1

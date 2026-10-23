@@ -11,6 +11,15 @@ __pycache__/
 **/__pycache__/
 *.py[cod]
 
+# Arquivos locais e materiais de consulta dos laboratórios
+**/.ipynb_checkpoints/
+**/history.csv
+**/versoes-locais.txt
+**/material/originais/
+# O AgenteAvaliador já publicado permanece versionado.
+**/material/projetos-originais/*
+!AA/aula05_2026-10-17_langchain-langgraph/material/projetos-originais/AgenteAvaliador/
+
 # Local Python virtual environment
 aprendizado_de_maquina/aula01_introducao_aprendizado_maquina/.venv/
 

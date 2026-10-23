@@ -1,0 +1,11 @@
+# Alternativa ao Conda; Python 3.11 recomendado.
+requests>=2.31,<3
+pydantic>=2.7,<3
+python-dotenv>=1,<2
+ipykernel>=6,<8
+jupyterlab>=4,<5
+langchain>=1,<2
+langchain-core>=1.6,<2
+langchain-ollama>=1,<2
+langchain-groq>=1,<2
+langgraph==1.2.16
